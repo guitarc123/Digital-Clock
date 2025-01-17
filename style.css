@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.clock{
+    width: 530px;
+    height: 170px;
+    background-color: rgb(155, 213, 47);
+    color: rgb(7, 7, 6);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2.time{
+    font-size: 5em;
+}
+
+p.date{
+    font-size: 1.5em;
+}
